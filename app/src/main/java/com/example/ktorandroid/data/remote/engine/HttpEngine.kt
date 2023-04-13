@@ -22,7 +22,7 @@ val OkHttpclient = HttpClient(OkHttp) {
         serializer = KotlinxSerializer()
     }
     install(Logging) {
-        level = LogLevel.ALL 
+        level = LogLevel.ALL
     }
 }
 
